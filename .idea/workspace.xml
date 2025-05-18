@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ff69f75-f0e7-4961-a78e-334c0add2514" name="Changes" comment="Registration Page Automation">
-      <change afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_user_login.py" afterDir="false" />
+    <list default="true" id="9ff69f75-f0e7-4961-a78e-334c0add2514" name="Changes" comment="Login functionality automation">
+      <change afterPath="$PROJECT_DIR$/pageObjects/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObjects/myaccount.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_user_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_user_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DheerajPC\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\DheerajPC\PycharmProjects\pythonProject\test" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_user_login.test_user_login">
     <configuration name="Python tests for test.test_user_registration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -184,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746638706124</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login functionality automation">
+      <option name="closed" value="true" />
+      <created>1746984744242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746984744242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Registration Page Automation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration Page Automation" />
+    <MESSAGE value="Login functionality automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login functionality automation" />
   </component>
 </project>
