@@ -16,17 +16,14 @@ with open('credentials.json', 'r') as f:
 
 
 @pytest.mark.parametrize('user_credentials', user_login_list)
-def test_user_login(playwright: Playwright, user_credentials, LoginPage=LoginPage, MyAccount=MyAccount):
+def test_user_login(playwright: Playwright, user_credentials, browser_instance, LoginPage=LoginPage, MyAccount=MyAccount):
     username = user_credentials["userEmail"]
     password = user_credentials["userPassword"]
-    browser = playwright.chromium.launch(headless=False)
-    context = browser.new_context()
-    page = context.new_page()
-    LoginPage = LoginPage(page)  #object for LoginPage Class
+    LoginPage = LoginPage(browser_instance)  #object for LoginPage Class
     LoginPage.navigate()
     LoginPage.login(username, password)
     time.sleep(2)
-    MyAccount = MyAccount(page)
+    MyAccount = MyAccount(browser_instance)
     MyAccount.navigateorderlink()
 
     time.sleep(3)
