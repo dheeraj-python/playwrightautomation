@@ -6,7 +6,7 @@ from playwright.sync_api import Page, Playwright
 from pageOObjects.login import LoginPage
 from pageOObjects.myaccount import MyAccount
 
-
+#command to run test on different configured browser -  pytest util/utils/test_user_login.py --browser_name=firefox
 
 #read the data from JSON (converting JSON data into python object using json.load & storing into login_data object
 with open('util/utils/credentials.json', 'r') as f:
