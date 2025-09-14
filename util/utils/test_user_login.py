@@ -3,11 +3,13 @@ import time
 
 import pytest
 from playwright.sync_api import Page, Playwright
-from pageObjects.login import LoginPage
-from pageObjects.myaccount import MyAccount
+from pageOObjects.login import LoginPage
+from pageOObjects.myaccount import MyAccount
+
+
 
 #read the data from JSON (converting JSON data into python object using json.load & storing into login_data object
-with open('credentials.json', 'r') as f:
+with open('util/utils/credentials.json', 'r') as f:
     login_data = json.load(f)
     user_login_list = login_data['user_credentials']
 
