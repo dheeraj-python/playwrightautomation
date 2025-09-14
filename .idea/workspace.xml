@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ff69f75-f0e7-4961-a78e-334c0add2514" name="Changes" comment="Implementation of Page Object Model concepts in the framework">
-      <change afterPath="$PROJECT_DIR$/utils/conftest.py" afterDir="false" />
+    <list default="true" id="9ff69f75-f0e7-4961-a78e-334c0add2514" name="Changes" comment="Calling multiple browser name through CMD">
+      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/utils/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_user_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test_user_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_user_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test_user_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageOObjects/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/myaccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageOObjects/myaccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/utils/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/util/utils/credentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test_user_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/utils/test_user_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test_user_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/utils/test_user_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +61,12 @@
     &quot;Python tests.Python tests for test_user_registration.test_registration_page.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DheerajPC\PycharmProjects\pythonProject\util" />
       <recent name="C:\Users\DheerajPC\PycharmProjects\pythonProject" />
       <recent name="C:\Users\DheerajPC\PycharmProjects\pythonProject\test" />
     </key>
@@ -74,7 +78,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -104,7 +108,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -119,7 +123,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -128,43 +132,58 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_user_registration.test_registration_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for util.utils.test_user_login.test_user_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_user_registration.test_registration_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for utils.test_user_login.test_user_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;utils.test_user_login.test_user_login&quot;" />
+      <option name="_new_target" value="&quot;util.utils.test_user_login.test_user_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for util.utils.test_user_login.test_user_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;util.utils.test_user_login.test_user_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for util.utils.test_user_registration.test_registration_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;util.utils.test_user_registration.test_registration_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_user_login.test_user_login" />
-        <item itemvalue="Python tests.Python tests for utils.test_user_login.test_user_login" />
-        <item itemvalue="Python tests.Python tests for test_user_registration.test_registration_page" />
+        <item itemvalue="Python tests.Python tests for util.utils.test_user_login.test_user_login" />
+        <item itemvalue="Python tests.Python tests for util.utils.test_user_login.test_user_login" />
+        <item itemvalue="Python tests.Python tests for util.utils.test_user_registration.test_registration_page" />
         <item itemvalue="Python tests.Python tests for test.test_user_registration.test_registration_page" />
-        <item itemvalue="Python tests.Python tests for test.test_user_registration.test_login_functionality" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747576202839</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Calling multiple browser name through CMD">
+      <option name="closed" value="true" />
+      <created>1748701419700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748701419700</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Calling multiple browser name through CMD">
+      <option name="closed" value="true" />
+      <created>1748701499850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748701499850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +269,7 @@
     <MESSAGE value="Registration Page Automation" />
     <MESSAGE value="Login functionality automation" />
     <MESSAGE value="Implementation of Page Object Model concepts in the framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Page Object Model concepts in the framework" />
+    <MESSAGE value="Calling multiple browser name through CMD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calling multiple browser name through CMD" />
   </component>
 </project>
